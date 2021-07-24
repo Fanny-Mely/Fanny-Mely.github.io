@@ -10,23 +10,20 @@
 <body>
 	<div class="wrapper fadeInDown">
   <div id="formContent">
-    <!-- Tabs Titles -->
-
-    <!-- Icon -->
+  
     <div class="fadeIn first">
       <p></p>
       <img src="img/logoc.jpg" class="img-thumbnail" width="80px" id="icon" alt="User Icon" />
       <h1>Gestor de Documentos</h1>
     </div>
-
-    <!-- Login Form -->
+    
     <form method="post" id="frmLogin" onsubmit="return logear()">
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="Nombre Usuario" required="">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Contraseña" required="">
       <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
 
-    <!-- Remind Passowrd -->
+   
     <div id="formFooter">
       <a class="underlineHover" href="registro.php">Registrar</a>
     </div>
